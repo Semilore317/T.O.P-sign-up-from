@@ -4,10 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  background: url(./assets/banner2.png);
+  background-size: 100%;
+}
+
 .alpha-container {
   width: 65rem;
   height: 45rem;
-  border: 2px solid red;
+  box-shadow: 12px 20px 2px rgba(0, 0, 0, 0.358);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -24,7 +29,8 @@
 .img-container {
   width: 40%;
   height: 100%;
-  background: linear-gradient(135deg, rgb(76, 76, 212), rgb(248, 81, 109));
+  overflow: hidden;
+  background: linear-gradient(45deg, #3E5151, #DECBA4);
 }
 .img-container div {
   background: rgba(0, 0, 0, 0.402);
@@ -36,7 +42,7 @@
 
 .text-container {
   width: 60%;
-  height: 100vh;
+  height: 100%;
   background: rgb(237, 237, 237);
   padding: 50px;
 }/*# sourceMappingURL=inex.css.map */
