@@ -10,13 +10,21 @@ input {
   display: block;
   border-color: transparent;
   transition: all 0.3s ease;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 input:hover {
   border-color: rgb(118, 118, 118);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 input:invalid {
   border-color: red;
+}
+input:valid {
+  border-color: green;
+}
+input:empty {
+  border-color: black;
 }
 
 body {

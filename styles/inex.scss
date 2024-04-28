@@ -10,14 +10,22 @@ input{
     display: block;
     border-color: transparent;
     transition: all 0.3s ease;
+    padding-top:15px;
+    padding-bottom: 15px;
     
     &:hover{
         border-color: rgb(118, 118, 118);
-        border-radius: 5px;
+        border-radius: 10px;
     }
 
     &:invalid{
         border-color: red;
+    }
+    &:valid{
+        border-color: green;
+    }
+    &:empty{
+        border-color: black;
     }
 }
 
