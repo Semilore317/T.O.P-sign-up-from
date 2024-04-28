@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-weight: 500;
 }
 
 body {
   background: url(./assets/banner2.png);
-  background-size: 100%;
+  background-size: 110%;
 }
 
 .alpha-container {
@@ -30,14 +31,18 @@ body {
   width: 40%;
   height: 100%;
   overflow: hidden;
-  background: linear-gradient(45deg, #3E5151, #DECBA4);
+  background: url("./assets/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: 120%;
 }
 .img-container div {
-  background: rgba(0, 0, 0, 0.402);
+  background: rgba(0, 0, 0, 0.537);
   text-align: center;
   padding: 10px;
   position: relative;
   top: 10%;
+  color: whitesmoke;
+  font-family: "Headshots";
+  font-stretch: expanded;
 }
 
 .text-container {
@@ -45,4 +50,5 @@ body {
   height: 100%;
   background: rgb(237, 237, 237);
   padding: 50px;
+  font-family: "montserrat";
 }/*# sourceMappingURL=inex.css.map */
