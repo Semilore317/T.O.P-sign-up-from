@@ -55,3 +55,27 @@ body{
     padding: 50px;
     font-family: "montserrat";
 }
+
+#form{
+    margin-top: 50px;
+}
+
+.form-wrapper-1,
+.form-wrapper-2,
+.form-wrapper-3{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+    label{
+        font-size: 0.7rem;
+    }
+}
+
+.span-4{
+    margin-left: 4.5rem;
+}
+
+.span-6{
+    margin-left: 3rem;
+}
